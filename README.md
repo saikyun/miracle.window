@@ -19,7 +19,10 @@ _Expected result_
 Look at `src/miracle/window/sample_view.clj` and `src/miracle/window/editor.clj`. All functions are just thin wrappers around the Unity counter parts. I've tried to make the macros easy to write but also flexible.
 
 ```clojure
-(label "Cool" nil (GUILayout/Width elem-w))
+(use 'miracle.window.editor)
+(label "Cool")
+(label "Cool" (get-style "Button"))
+(label "Cool" nil (GUILayout/Width 30))
 ```
 
 1. `label` is the kind of UI element.
