@@ -19,7 +19,8 @@ _Expected result_
 Look at `src/miracle/window/sample_view.clj` and `src/miracle/window/editor.clj`. All functions are just thin wrappers around the Unity counter parts. I've tried to make the macros easy to write but also flexible.
 
 ```clojure
-(use 'miracle.window.editor)
+;; These examples aren't runnable straight from the repl, because GUI functions can only be called from
+;; a UnityWindows OnGUI function.
 (label "Cool")
 (label "Cool" (get-style "Button"))
 (label "Cool" nil (GUILayout/Width 30))
