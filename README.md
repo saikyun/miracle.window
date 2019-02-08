@@ -16,7 +16,7 @@ _Expected result_
 
 # What now?
 
-Look at `src/miracle/window/sample_view.clj` and `src/miracle/window/editor.clj`. All functions are just thin wrappers around the Unity counter parts. I've tried to make the macros easy to write but also flexible.
+Look at `src/miracle/window/sample_view.clj` and `src/miracle/window/editor.clj`. All functions are just thin wrappers around the Unity counter parts. I've tried to make the macros easy to call but also flexible enough to cover multiple use cases.
 
 ```clojure
 ;; These examples aren't runnable straight from the repl, because GUI functions can only be called from
