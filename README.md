@@ -26,3 +26,7 @@ Look at `src/miracle/window/sample_view.clj` and `src/miracle/window/editor.clj`
 2. `"Cool"` is the string to show. This parameter is always required. The number of parameters here depends on the UI element, `label` only wants a string.
 3. `nil` is the active unity skin style. When the parameter is `nil`, the default for the UI element is used, in this case `GUI.skin.GetStyle("Button")`. Read more [here](https://docs.unity3d.com/ScriptReference/GUISkin.GetStyle.html).
 4. At the end you can put any number of `GUILayout` options. Read more [here](https://docs.unity3d.com/ScriptReference/GUILayoutOption.html).
+
+# In your own project
+You're supposed to create your own versions of the sample files. `editor.clj` is the only actual library file.
+If you add more UI elements to `editor.clj`, please make pull request!
