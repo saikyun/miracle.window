@@ -33,4 +33,4 @@ Look at `src/miracle/window/sample_view.clj` and `src/miracle/window/editor.clj`
 
 # In your own project
 You're supposed to create your own versions of the sample files. `editor.clj` is the only actual library file.
-If you add more UI elements to `editor.clj`, please make pull request!
+If you add more UI elements to `editor.clj`, please make a pull request!
